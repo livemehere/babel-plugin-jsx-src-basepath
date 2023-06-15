@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-jsx-src-basepath",
+  "version": "1.0.0",
+  "description": "Translates the value of the src property of the tag with the src property among the tags in jsx by pasting basePath.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/livemehere/babel-plugin-jsx-src-basepath",
+  "bugs": {
+    "url": "https://github.com/livemehere/babel-plugin-jsx-src-basepath/issues",
+    "email": "rhdxoals@gmail.com"
+  },
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.js"
+    }
+  },
+  "keywords": [
+    "babel",
+    "jsx",
+    "basePath",
+    "webpack",
+    "plugin",
+    "react"
+  ],
+  "author": "livemehere",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
